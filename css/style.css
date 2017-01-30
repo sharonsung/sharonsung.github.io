@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+header {
+    padding: 10px;
+    height: 100vh;
+    background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15894681_1187206024668023_2178796436732377751_n.jpg?oh=4ef8f71fee6a748508377e03268348bd&oe=58E0DFDF");
+    )
+}
+
+img {
+    height: 100vh;
+}
+
+h1 {
+    color: #8b6122;
+    font-size: 6.25em;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: brown;
+    font-size: 3.75em;
+    font-family: inherit;
+    background-color: snow
+}
+
+span {
+    font-size: 1.25em;
+    color: orange;
+}
+
+article {
+    font-family: inherit;
+    font-size: 1.25em;
+    font-style: oblique;
+    font-weight: 900;
+    color: lightskyblue
+}
+
+article>span {
+    color: #c99a89;
+}
+
+a:link {
+    display: grid;
+    border: 1px solid black;
+    text-shadow: 1px 3px 5px #c3c3de;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    background-color: #6262f2;
+}
+
+h3 {
+    font-family: "Sriracha";
+    font-size: 1.25em;
+    font-style: oblique;
+    color: burlywood;
+}
+
+blockquote {
+    border-left: 5px solid;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.unerline {
+    border-top: 3px solid;
+    width: 30px;
+}
+
+.thumbnail {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px;
+    float: left
+}
