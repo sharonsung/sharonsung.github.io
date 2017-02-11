@@ -1,0 +1,19 @@
+[class^="col-"] {
+    /*    border: 1px solid;*/
+    height: auto;
+}
+
+[class^="col-"] img {
+    width: 100%;
+}
+
+footer img {
+    border-radius: 50%;
+}
+
+section .row [class^="col-"] {
+    color: azure;
+    background-size: cover;
+    background-image: url(cfplr9zgnak-alberto-restifo.jpg);
+    height: 50vh;
+}
