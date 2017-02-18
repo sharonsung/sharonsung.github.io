@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam|Lobster|Pangolin');
 section {
     background-image: url(/img/exheq48z-q4-frank-mckenna.jpg);
     height: 100vh;
@@ -166,30 +167,31 @@ h3 {
     height: 300px;
     background-image: url(/imgfood/123.JPG);
     background-size: cover;
-}
-
-h1{ line-height: 500px;
-    color: #eddeca;
+    color: #f7ede0;
     text-align: right;
+    font-size: 2.25em;
+    line-height: 550px;
+    font-weight: bold;
 }
 
 p {
-    color:  #812727;
-    font-size: 22px;
+    color: #812727;
+    font-size: 1.25em;
 }
 
 #food-1 {
-    font-size: 25px;
+    font-size: 1.25em;
     color: #812727;
 }
 
 li>ul {
-    font-size: 30px;
+    font-size: 25px;
     display: none;
 }
 
 li:hover>ul {
     display: block;
+    font-size: 1em;
 }
 
 #coffee img {
@@ -197,17 +199,122 @@ li:hover>ul {
 }
 
 #d {
-    line-height:300px;
+    line-height: 300px;
     text-align: center;
     color: #812727;
     font-size: 18px;
 }
-#coffee-2{
-    background-color:  #f7ede0;
-    height: 600px;
+
+#coffee-2 {
+    background-color: #f7ede0;
+    height: 250vh;
+    width: 1500px;
 }
-#food-3{
-    height:400px;
-    width: 700px;
-     
+
+#coffee-2 img {
+    float: right;
+    height: 400px;
+    width: 450px;
+    border: 5px solid #191969;
+    border-style: groove;
+}
+
+#p-1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h1:before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    border: 3px solid;
+    border-style: dotted;
+}
+
+h1:after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    border: 3px solid;
+    border-style: dotted;
+}
+
+h1 {
+    color: #812727;
+}
+
+.jumbotron {
+    height: 100vh;
+    background-image: url(/imgfamily/11856320_1034922623194010_3299354733396525685_o.jpg);
+    color: antiquewhite;
+    text-align: center;
+    padding: 150px;
+    font-family: "Kalam";
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.gravatar {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gravatar img {
+    width: 350px;
+    height: 250px;
+    border-radius: 25% 25% 25% 25%;
+}
+
+#family {
+    width: calc(100%/3);
+    float: left;
+    padding: 10px;
+    
+}
+
+#family img {
+    width: 100%;
+    height: 300px;
+}
+
+#life {
+    width: 230px;
+    height: 160px;
+    background-image: url(https://sdl-stickershop.line.naver.jp/products/0/0/7/3620/android/animation/2923385.png?__=20161019);
+    background-repeat: no-repeat;
+}
+
+#life-1 {
+    width: 280px;
+    height: 220px;
+    background-image: url(https://sdl-stickershop.line.naver.jp/products/0/0/14/546/android/stickers/2994.png);
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: #653737;
+}
+
+#life-3 {
+    width: calc(100%/3);
+    float: left;
+    padding: 10px;
+}
+
+#life-3 img {
+    width: 100%;
+    height: 300px;
+}
+
+.caption>h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cpation p {
+    font-size: 14px;
 }
