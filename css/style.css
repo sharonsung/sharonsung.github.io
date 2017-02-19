@@ -11,9 +11,8 @@ body {
     background-attachment: fixed;
 }
 
-[class^="col-"] img {
+[id^="picture-"] img {
     width: 100%;
-    float: left;
     padding: 15px;
     height: 250px;
 }
@@ -27,19 +26,16 @@ nav>ul li {
     display: inline;
     height: 50px;
     text-align: center;
-    /*    line-height: 60px;*/
+    /*        line-height: 60px;*/
     margin: 0 auto;
     padding: 0px 10px;
+    color: #7f7fd0;
 }
 
 nav a {
     display: grid;
     text-shadow: 2px 10px 5px #c3c3de;
     color: burlywood;
-}
-
-nav>ul li {
-    color: #7f7fd0;
 }
 
 a:visited {
@@ -57,37 +53,37 @@ a:active {
 footer [class^="col-"] {
     background-color: #f7ede0;
     color: brown;
-    height: 350px;
+    height: 40vh;
 }
 
 #title {
-    height: 70px;
+    height: 150px;
+}
+
+h3 {
+    font-size: 3.25em;
+    color: #8b6122;
+    font-family: fantasy, Helvetica, Arial, sans-serif;
+    float: left;
+    height: 50px;
 }
 
 #picture-1:hover:after {
     content: "In Moscow......";
-    font-family: fantasy;
-    font-size: 25px;
+    font-family: fantasy, Helvetica, Arial, sans-serif;
+    font-size: 2.25em;
 }
 
 #picture-2:hover:after {
     content: "In Suzidaer......";
-    font-family: fantasy;
-    font-size: 25px;
+    font-family: fantasy, Helvetica, Arial, sans-serif;
+    font-size: 2.25em;
 }
 
 #picture-3:hover:after {
     content: "In St. Petersburg......";
-    font-family: fantasy;
-    font-size: 25px;
-}
-
-h3 {
-    font-size: 40px;
-    color: #8b6122;
-    font-family: fantasy;
-    float: left;
-    height: 50px;
+    font-family: fantasy, Helvetica, Arial, sans-serif;
+    font-size: 2.25em;
 }
 
 .thumbnail {
@@ -101,7 +97,9 @@ h3 {
     height: 500px;
 }
 
-.thumbnail:after {
+#moscow,
+#st,
+#su:after {
     position: absolute;
     top: 0px;
     background-color: #ffd59e;
@@ -112,16 +110,13 @@ h3 {
     height: 500px;
 }
 
-.thumbnail:hover:after {
-    opacity: 0.5;
-}
-
 #moscow:hover:after {
     content: "裝潢令人驚嘆的杜蘭朵......俄羅斯奢華餐飲經典代表作......";
     color: #812727;
     text-align: center;
     font-size: 30px;
     line-height: 280px;
+    opacity: 0.5;
 }
 
 #st:hover:after {
@@ -130,6 +125,7 @@ h3 {
     text-align: center;
     font-size: 30px;
     line-height: 250px;
+    opacity: 0.5;
 }
 
 #su:hover:after {
@@ -138,6 +134,7 @@ h3 {
     text-align: center;
     font-size: 30px;
     line-height: 200px;
+    opacity: 0.5;
 }
 
 .thumbnail-1 {
@@ -164,13 +161,12 @@ h3 {
 }
 
 #food {
-    height: 300px;
+    height: 320px;
     background-image: url(/imgfood/123.JPG);
     background-size: cover;
     color: #f7ede0;
     text-align: right;
     font-size: 2.25em;
-    line-height: 550px;
     font-weight: bold;
 }
 
@@ -180,12 +176,13 @@ p {
 }
 
 #food-1 {
+    width: 0 auto;
     font-size: 1.25em;
     color: #812727;
 }
 
 li>ul {
-    font-size: 25px;
+    font-size: 1em;
     display: none;
 }
 
@@ -202,17 +199,17 @@ li:hover>ul {
     line-height: 300px;
     text-align: center;
     color: #812727;
-    font-size: 18px;
+    font-size: 1.25em;
 }
 
 #coffee-2 {
     background-color: #f7ede0;
     height: 250vh;
-    width: 1500px;
+    /*    width: 1500px;*/
 }
 
 #coffee-2 img {
-    float: right;
+    float: center;
     height: 400px;
     width: 450px;
     border: 5px solid #191969;
@@ -221,7 +218,7 @@ li:hover>ul {
 
 #p-1 {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.25em;
 }
 
 h1:before {
@@ -250,12 +247,7 @@ h1 {
     color: antiquewhite;
     text-align: center;
     padding: 150px;
-    font-family: "Kalam";
-}
-
-.container {
-    width: 1366px;
-    margin: 0 auto;
+    font-family: "Kalam", Helvetica, Arial, sans-serif;
 }
 
 .gravatar {
@@ -273,7 +265,6 @@ h1 {
     width: calc(100%/3);
     float: left;
     padding: 10px;
-    
 }
 
 #family img {
