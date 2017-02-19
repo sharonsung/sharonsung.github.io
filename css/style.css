@@ -97,8 +97,28 @@ h3 {
     height: 500px;
 }
 
-#moscow,
-#st,
+#moscow:after {
+    position: absolute;
+    top: 0px;
+    background-color: #ffd59e;
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 800px;
+    height: 500px;
+}
+
+#st:after {
+    position: absolute;
+    top: 0px;
+    background-color: #ffd59e;
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 800px;
+    height: 500px;
+}
+
 #su:after {
     position: absolute;
     top: 0px;
