@@ -63,26 +63,26 @@ footer [class^="col-"] {
 h3 {
     font-size: 3.25em;
     color: #8b6122;
-    font-family: fantasy, Helvetica, Arial, sans-serif;
+    font-family: "Kalam", Helvetica, Arial, sans-serif;
     float: left;
     height: 50px;
 }
 
 #picture-1:hover:after {
     content: "In Moscow......";
-    font-family: fantasy, Helvetica, Arial, sans-serif;
+    font-family: "Kalam", Helvetica, Arial, sans-serif;
     font-size: 2.25em;
 }
 
 #picture-2:hover:after {
     content: "In Suzidaer......";
-    font-family: fantasy, Helvetica, Arial, sans-serif;
+    font-family: "Kalam", Helvetica, Arial, sans-serif;
     font-size: 2.25em;
 }
 
 #picture-3:hover:after {
     content: "In St. Petersburg......";
-    font-family: fantasy, Helvetica, Arial, sans-serif;
+    font-family: "Kalam", Helvetica, Arial, sans-serif;
     font-size: 2.25em;
 }
 
@@ -134,6 +134,7 @@ h3 {
     content: "裝潢令人驚嘆的杜蘭朵......俄羅斯奢華餐飲經典代表作......";
     color: #812727;
     text-align: center;
+    font-weight: bold;
     font-size: 30px;
     line-height: 280px;
     opacity: 0.5;
@@ -143,6 +144,7 @@ h3 {
     content: "小小的W招牌在......在聖彼得堡 走的是溫馨路線......";
     color: #812727;
     text-align: center;
+    font-weight: bold;
     font-size: 30px;
     line-height: 250px;
     opacity: 0.5;
@@ -152,6 +154,7 @@ h3 {
     content: "童話般的金環小鎮體驗道地俄式風情...... ";
     color: #812727;
     text-align: center;
+    font-weight: bold;
     font-size: 30px;
     line-height: 200px;
     opacity: 0.5;
