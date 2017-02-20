@@ -54,16 +54,20 @@ body {
 
 p {
     color: #454550;
-    Text-shadow: 2px 2px 3px #a7712b
+    text-shadow: 5px 2px 3px #812727;
+    letter-spacing:2px;
+    font-weight: bold;
+    }
+#footr-1{
+    height: 200px;
 }
 
 #footer {
-    line-height: 100%;
-    color:  #482d2d;
-    height: 200px;
-    background-color: #f8d9b0;
+     color: #621c1c;
+    opacity: 0.5;
+    line-height: 200px;
+    background-color: #f7ce99;
     text-align: center;
     font-family: "Kalam", Helvetica, Arial, sans-serif;
-    Text-shadow: 5px 2px  #6979be;
-
+    letter-spacing:2px;
 }

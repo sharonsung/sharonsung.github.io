@@ -35,29 +35,29 @@ nav>ul li {
 nav a {
     display: grid;
     text-shadow: 2px 10px 5px #c3c3de;
-    color: burlywood;
+    color: #812727;
 }
 
 a:visited {
-    color: #812727;
+    color: #8b5b1c;
 }
 
 a:hover {
-    color: #812727;
+    color: #f0c8ed;
 }
 
 a:active {
-    color: #7f7fd0;
+    color: #3608f7;
 }
 
 footer [class^="col-"] {
     background-color: #f7ede0;
     color: brown;
-    height: 40vh;
+    height: 60vh;
 }
 
 #title {
-    height: 150px;
+    height: 170px;
 }
 
 h3 {
@@ -183,66 +183,6 @@ h3 {
     text-shadow: 2px 10px 5px #c3c3de;
 }
 
-#food {
-    height: 320px;
-    background-image: url(/imgfood/123.JPG);
-    background-size: cover;
-    color: #f7ede0;
-    text-align: right;
-    font-size: 2.25em;
-    font-weight: bold;
-}
-
-p {
-    color: #812727;
-    font-size: 1.25em;
-}
-
-#food-1 {
-    width: 0 auto;
-    font-size: 1.25em;
-    color: #812727;
-}
-
-li>ul {
-    font-size: 1em;
-    display: none;
-}
-
-li:hover>ul {
-    display: block;
-    font-size: 1em;
-}
-
-#coffee img {
-    height: 300px;
-}
-
-#d {
-    line-height: 300px;
-    text-align: center;
-    color: #812727;
-    font-size: 1.25em;
-}
-
-#coffee-2 {
-    background-color: #f7ede0;
-    height: 250vh;
-    /*    width: 1500px;*/
-}
-
-#coffee-2 img {
-    float: center;
-    height: 400px;
-    width: 450px;
-    border: 5px solid #191969;
-    border-style: groove;
-}
-
-#p-1 {
-    text-align: center;
-    font-size: 1.25em;
-}
 
 h1:before {
     content: "";
